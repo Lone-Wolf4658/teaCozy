@@ -1,0 +1,76 @@
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    display: grid;
+}
+.nav {
+    background: black;
+    position: sticky;
+    top: 0;
+    height: 69px;
+    z-index: 10;
+    border-bottom: 1px solid seashell
+}
+.nav img {
+    float: left;
+    height: 50px;
+    margin: 10px;
+}
+ul {
+    float: right;
+    list-style: none;
+    text-decoration: underline;
+    display: flex;
+    
+    
+}
+li {
+    display: inline-block;
+    margin: 0px 10px 0 10px;
+}
+
+
+
+
+
+main {
+    background: red;
+    height: 700px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+main .text {
+    width: 100%;
+    background: black;
+    position: relative;
+    bottom: 75%;
+    display: inline-block;
+    text-align: center;
+    
+
+}
+
+
+.gallary {
+    background:orange;
+}
+.locations {
+    background: blue;
+}
+footer {
+    background: blueviolet;
+}
+
+
+.gallary img, .locations img {
+    width: 20%;
+    height: 20%;
+}
