@@ -6,7 +6,7 @@ body {
     background-color: black;
     opacity: 0.9;
     margin: 0;
-    display: grid;
+    text-align: center;
 }
 .nav {
     background: black;
@@ -90,23 +90,47 @@ main .text {
 .gallary img {
     width: 300px;
     height: 200px;
+
 }
-
-
 
 
 
 
 
 .locations {
-    background: blue;
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+    background-image: url(../images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
+.locations h2 {
+    margin: 15px;
+}
+
+.cardWrap {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    height: 300px;
+    padding: 20px;
+    margin-bottom: auto;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+
+
 footer {
     background: blueviolet;
 }
 
 
- .locations img {
-    width: 20%;
-    height: 20%;
-}
