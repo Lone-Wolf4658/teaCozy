@@ -60,8 +60,44 @@ main .text {
 
 
 .gallary {
-    background:orange;
+    display: grid;
+    text-align: center;
+    width: 1000px;
+
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    
 }
+.gallary h2 {
+    margin-bottom: 0;
+}
+.gallary p {
+    margin: 10px;
+}
+.imgGallary {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.imgContainer {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+
+}
+.gallary img {
+    width: 300px;
+    height: 200px;
+}
+
+
+
+
+
+
+
 .locations {
     background: blue;
 }
@@ -70,7 +106,7 @@ footer {
 }
 
 
-.gallary img, .locations img {
+ .locations img {
     width: 20%;
     height: 20%;
 }
